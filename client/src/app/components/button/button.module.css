@@ -1,0 +1,16 @@
+.btn {
+  font-family: var(--font-karla);
+  font-size: 0.8rem;
+  line-height: 46px;
+  font-weight: 400;
+  border: 1px solid var(--border-color);
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: max-content;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--background-color-black);
+  color: var(--border-color);
+}

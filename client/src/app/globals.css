@@ -1,0 +1,39 @@
+:root {
+  --background-color: #ffffff;
+  --background-color-black: rgb(39, 38, 38);
+  --color-grey-nav: rgb(134, 134, 134);
+  --theme-color: rgb(175, 127, 102);
+  --titles-primary: rgb(36, 36, 36);
+  --grey-background: rgb(248, 247, 246);
+  --grey-text: rgb(132, 132, 132);
+  --border-color: rgb(215, 214, 213);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
